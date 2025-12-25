@@ -1,6 +1,6 @@
 @font-face {
     font-family: nb;
-    src: url(./assets/fonts/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.ttf);
+    src: url(../fonts/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu1aB.ttf);
 }
 
 
@@ -291,7 +291,7 @@ home swipper slide Styling end*/
     height: 100vh;
     width: 100%;
     
-    background-image: url("./assets/img/section-smart-watches-bg-md.png");
+    background-image: url("../img/section-smart-watches-bg-md.png");
     position: relative;
     
  }
@@ -424,7 +424,7 @@ home swipper slide Styling end*/
     height: 100vh;
     width: 100%;
     
-    background-image: url("./assets/img/section-earbuds-bg-md.png");
+    background-image: url("../img/section-earbuds-bg-md.png");
     position: relative;
     
 }
