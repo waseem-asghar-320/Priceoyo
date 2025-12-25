@@ -364,6 +364,9 @@ home swipper slide Styling end*/
     text-align: center;
     width: 230px;
  }
+  #card-img img{
+    width: 63%;
+  }
  #review{
     cursor: pointer;
     display: flex;
@@ -592,3 +595,276 @@ home swipper slide Styling end*/
     position: relative;
     top: 53%;
 }
+
+
+
+/* best seller page styling end */
+
+
+
+
+/* latest-mobile -section styling start */
+
+
+#main-latest-mobile-card-div{
+    background-image: url("../img/yellow.png");
+     height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.yellow-bottom{
+    /* position: relative; */
+    height: 65vh;
+    width: 100%;
+    background-color: rgb(252, 229, 94);
+}
+.yellow-bottom h3{
+    padding-top: 2rem;
+    padding-left: 7rem;
+}
+.btn-div{
+    height: 45%;
+    /* background-color: blanchedalmond; */
+    position: relative;
+}
+.wrapper-btn-div{
+    position: absolute;
+    height: 60%;
+    width: 85%;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: rgb(249, 3, 144); */
+    display: grid;
+    grid-template-rows: repeat(12,1fr);
+    grid-template-columns: repeat(12,1fr);
+    gap: 10px;
+}
+#btn1{
+    
+    grid-row: 1/7;
+    grid-column: 1/4;
+   
+}
+#btn2{
+    
+    grid-row: 1/7;
+    grid-column: 4/7;
+   
+}
+#btn3{
+    
+    grid-row: 1/7;
+    grid-column: 7/10;
+   
+}
+#btn4{
+    
+    grid-row: 1/7;
+    grid-column: 10/13;
+   
+}
+#btn5{
+    
+    grid-row: 7/13;
+    grid-column: 1/4;
+   
+}
+#btn6{
+    
+    grid-row: 7/13;
+    grid-column: 4/7;
+   
+}
+#btn7{
+    
+    grid-row: 7/13;
+    grid-column: 7/10;
+   
+}
+#btn8{
+    
+    grid-row: 7/13;
+    grid-column: 10/13;
+   
+}
+
+
+.pink-btn{
+    cursor: pointer;
+    border-radius: 1rem;
+    text-align: center;
+    color: #fff;
+    padding-top: 13px;
+    background-color: rgb(249, 3, 144);
+    transition: all ease-out 0.5s;
+}
+.pink-btn:hover{
+    background-color: #fff;
+    color: rgb(249, 3, 144);
+}
+
+.brand-div{
+    height: 50%;
+    /* background-color: #918989; */
+    position: relative;
+}
+.brand-inner-div{
+    height: 60%;
+    width: 85%;
+    /* background-color: #0f9d58; */
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    white-space: nowrap;
+    padding: 10px;
+}
+.brand-inner-div::-webkit-scrollbar {
+  display: none;
+}
+.brand-inner-div img{
+    margin: 15px;
+    padding: 5px;
+
+    cursor: pointer;
+}
+
+
+/* latest-mobile -section styling end */
+
+
+
+/* customer reviews styling start */
+
+.customer-review{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    position: relative;
+}
+.customer-review h3,p{
+    text-align: center;
+}
+.review-pic-div{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 50%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.review-pic-div img{
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+.review-detail-div{
+    /* background-color: red; */
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 50%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.review-detail-div::-webkit-scrollbar{
+    display: none;
+}
+
+.review-card {
+  width: 400px;
+  height: 170px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 0 0 1px #e5e7eb;
+  margin: 7px;
+}
+
+.top {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 12px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  background: #eee;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #888;
+}
+
+.info {
+  flex: 1;
+}
+
+.name-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.name-row h3 {
+  font-size: 16px;
+  margin: 0;
+  color: #1f2937;
+}
+
+.verified {
+  color: #16a34a;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.stars {
+  color: #f59e0b;
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.date {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.review-text {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+
+
+/* customer reviews styling end */
+
+
+
+
+/* latest air purifier styling start */
+
